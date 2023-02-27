@@ -1,0 +1,29 @@
+.seccion {
+ background-color: darkslategrey;
+ padding: 1rem;
+ margin: 1rem;
+}
+
+.parrafo {
+ background-color: white;
+ padding: 1rem;
+}
+
+.parrafo.dragging {
+ opacity: 0.3;
+}
+
+.imagen-drag {
+ width: 90%;
+ padding: 1rem;
+ position: absolute;
+ background-color: orange;
+ left: -120vw;
+}
+
+.papelera {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-top: 10px;
+}
